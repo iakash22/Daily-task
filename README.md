@@ -7,9 +7,11 @@
 - You can create and delete task
 
 ## Screenshots
-<img src="/public/ss1.png" alt="daily-task" />
-<img src="/public/ss2.png" alt="daily-task" />
-<img src="/public/ss3.png" alt="daily-task" />
+
+![App Screenshot](./public/ss1.png)
+![App Screenshot](./public/ss2.png)
+![App Screenshot](./public/ss3.png)
+
 
 ## Description
 
