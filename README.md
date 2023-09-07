@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Daily Task
 
-## Getting Started
+## Features
 
-First, run the development server:
+- Light/dark/system appearance mode toggle
+- Live previews
+- You can create and delete task
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Screenshots
+![App Screenshot](/public/ss1.png)
+![App Screenshot](/public/ss2.png)
+![App Screenshot](/public/ss3.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Description
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  ```base
+  I've developed a task management website with robust security features and efficient user management using the Clerk authentication tool. To store and manage data, I've employed Prisma for database operations and schema design, ensuring optimal data organization. For data validation, I've integrated Zod, which enhances data integrity and user input validation.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  The core functionality of the platform revolves around creating task collections and managing individual tasks within them. Users can seamlessly create collections to categorize their tasks and set expiration dates for each task. 
 
-## Learn More
+  The Clerk authentication tool not only guarantees secure user access but also simplifies the registration and login process. It provides a seamless user experience while ensuring data privacy and security.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  Overall, my task management website leverages the power of Prisma for robust data storage, Zod for data validation, and Clerk for secure user management. This combination results in a highly efficient and user-friendly platform that empowers individuals to organize and manage their tasks effectively, ensuring they never miss important deadlines
+  ``` 
