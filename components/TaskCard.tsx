@@ -1,6 +1,6 @@
 "use client";
 import { task } from '@prisma/client'
-import React, { useRef, useTransition } from 'react'
+import React, { useTransition } from 'react'
 import { Checkbox } from './ui/checkbox'
 import { cn } from '@/lib/utils'
 import { format } from 'date-fns'
@@ -24,20 +24,17 @@ function getExpirationColor(expiresAt: Date) {
 const TaskCard = ({ task }: Props) => {
     const [isLoading, startTransition] = useTransition();
     const router = useRouter();
-    const ref = useRef();
+
     const onChecked = () => {
-        ref.current.classList.add('cursor-wait')
         startTransition(async () => {
             await setTaskToDone(task.id);
             router.refresh();
-            ref.current.classList.remove('cursor-wait')
         });
 
     }
     return (
         <div className="flex gap-2 items-start ">
             <Checkbox 
-                ref={ref}
                 id={task.id.toString()}
                 className="w-5 h-5 "
                 checked={task.done}
